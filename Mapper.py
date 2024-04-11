@@ -1,13 +1,20 @@
+import grpc
 
+import Kmeans_pb2_grpc
 
+ip = sys.argv[1]
 
 class Mapper:
 
     name=""
     reducer_count=0
-    def __init__(self,name,reducer_count):
+    ip=""
+
+    def __init__(self,name,ip):
         self.name=name
-        self.reducer_count=reducer_count
+
+        self.ip=ip
+
     def work_part_file(self,file, index_start, index_end):
         data = open(file)
         data = data.read().split("\n")[index_start:index_end]
@@ -35,7 +42,10 @@ class Mapper:
         for i in range(self.reducer_count):
             file = open(self.name+"/partition_"+str(i+1))
             #write to partiiton
-        pass
 
 
+def run():
+    mapper = Mapper(name="mapper",ip=ip)
+    with grpc.insecure_channel(ip) as channel:
+        stub = Kmeans_pb2_grpc.KmeansStub(channel)
 
