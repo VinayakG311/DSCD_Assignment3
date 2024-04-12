@@ -3,7 +3,7 @@ syntax="proto3";
 service MasterService{
     rpc input_split(file_path) returns (split) {}
     rpc map(split) returns (map_output) {}
-    rpc partition(map_output) returns 
+    rpc partition(map_output) returns
 
 }
 
