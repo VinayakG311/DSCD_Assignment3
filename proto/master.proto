@@ -1,0 +1,36 @@
+syntax="proto3";
+
+service MasterService{
+    rpc input_split(file_path) returns (split) {}
+    rpc map(split) returns (map_output) {}
+    rpc partition(map_output) returns 
+
+}
+
+
+
+message master_param{
+    int mappers = 1;
+    int reducers = 2;
+    int centroids = 3;
+    int k_mean_iterations = 4;
+}
+
+message split{
+    string split_file = 1;
+    int split_number = 2;
+    string split_value = 3;
+}
+
+
+// using scenario 1
+
+message file_path{
+    string path = 1;
+}
+
+message map_output{
+    string key = 1;
+    string value = 2;
+}
+
