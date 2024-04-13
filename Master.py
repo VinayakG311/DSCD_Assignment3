@@ -96,8 +96,10 @@ def run():
     Kmeans_pb2_grpc.add_KmeansServicer_to_server(KmeansServicer(), server)
     server.add_insecure_port(f"[::]:{port}")
     server.start()
-    while condition():
+    i=0
+    while i<10:
         initiateMappers()
+        i+=1
 
     try:
         while True:
