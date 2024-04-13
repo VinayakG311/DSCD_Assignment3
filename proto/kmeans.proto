@@ -16,9 +16,13 @@ message Data{
 }
 message MasterToMapperReq{
   // string path=1;
+
   int32 start_index=1;
   int32 end_index=2;
+  int32 mapper_index=3;
   repeated Centroids prev_Centroids=4;
+  int32 reducer_count=5;
+
 }
 message MasterToMapperRes{
   int32 success=1;

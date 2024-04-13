@@ -8,8 +8,8 @@ import random
 import grpc
 import time
 
-import kmeans_pb2 as Kmeans_pb2
-import kmeans_pb2_grpc as Kmeans_pb2_grpc
+import Kmeans_pb2 as Kmeans_pb2
+import Kmeans_pb2_grpc as Kmeans_pb2_grpc
 
 from Servicer import KmeansServicer
 from MapperInfo import Mapper
@@ -33,11 +33,6 @@ Reducers= []
 IndicesAssigned = []
 
 Centroid = []
-for i in range(M):
-    Mappers.append(Mapper(name="Mapper"+str(i+1),ip=mapper_port[i]))
-    # print(Mappers[i].ip)
-for i in range(R):
-    Reducers.append(Reducer(name="Reducer"+str(i+1),ip=mapper_port[i+M]))
 
 with open ("Data/Input/points.txt","r") as f:
     points = f.readlines()
@@ -65,7 +60,7 @@ def initiateMappers():
         try:
             with grpc.insecure_channel(Mappers[ind].ip) as channel:
                 print(f"SENDING REQ TO {Mappers[ind].ip}")
-                request = Kmeans_pb2.MasterToMapperReq(start_index=IndicesAssigned[ind][0],end_index=IndicesAssigned[ind][0],prev_Centroids=Centroid)
+                request = Kmeans_pb2.MasterToMapperReq(mapper_index=ind,start_index=IndicesAssigned[ind][0],end_index=IndicesAssigned[ind][1],prev_Centroids=Centroid,reducer_count=R)
                 stub = Kmeans_pb2_grpc.KmeansStub(channel)
                 res = stub.MasterToMapper(request)
                 print(f"{res}")
@@ -82,39 +77,28 @@ def work_splitter():
         data = data.read().split("\n")
         size = len(data)
         alloc = size // M
-        #Running Mapper
-        map_threads=[]
         for i in range(M):
             IndicesAssigned.append([i*alloc,(i+1)*alloc])
-            # th = Thread(target=Mappers[i].work_part_file,args=(i*alloc,(i+1)*alloc))
-            # map_threads.append(th)
-        for i in map_threads:
-            i.start()
-        for i in map_threads:
-            i.join()
-        #Running Reducer
-        reducer_threads=[]
-        # for i in range(R):
-            # th = Thread(target=Reducers[i].shufflesort)
-            # reducer_threads.append(th)
-        for i in reducer_threads:
-            i.start()
-        for i in reducer_threads:
-            i.join()
 
     else:
-        print("give multiple files to mapper")
+        print("gave multiple files to mapper")
 
 
 
 t = []
 port="50051"
+
+def condition():
+    return True
+
 def run():
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=5))
     Kmeans_pb2_grpc.add_KmeansServicer_to_server(KmeansServicer(), server)
     server.add_insecure_port(f"[::]:{port}")
     server.start()
-    
+    while condition():
+        initiateMappers()
+
     try:
         while True:
                 time.sleep(3600)  # One hour
@@ -125,10 +109,10 @@ def run():
 
 if __name__ == '__main__':
     t1 = threading.Thread(target=run)
-    t2 = threading.Thread(target=initiateMappers)
+
     
     t.append(t1)
-    t.append(t2)
+
     
     try:
         for i in t:

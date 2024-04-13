@@ -22,14 +22,18 @@ class Data(_message.Message):
     def __init__(self, key: _Optional[float] = ..., value: _Optional[float] = ...) -> None: ...
 
 class MasterToMapperReq(_message.Message):
-    __slots__ = ("start_index", "end_index", "prev_Centroids")
+    __slots__ = ("start_index", "end_index", "mapper_index", "prev_Centroids", "reducer_count")
     START_INDEX_FIELD_NUMBER: _ClassVar[int]
     END_INDEX_FIELD_NUMBER: _ClassVar[int]
+    MAPPER_INDEX_FIELD_NUMBER: _ClassVar[int]
     PREV_CENTROIDS_FIELD_NUMBER: _ClassVar[int]
+    REDUCER_COUNT_FIELD_NUMBER: _ClassVar[int]
     start_index: int
     end_index: int
+    mapper_index: int
     prev_Centroids: _containers.RepeatedCompositeFieldContainer[Centroids]
-    def __init__(self, start_index: _Optional[int] = ..., end_index: _Optional[int] = ..., prev_Centroids: _Optional[_Iterable[_Union[Centroids, _Mapping]]] = ...) -> None: ...
+    reducer_count: int
+    def __init__(self, start_index: _Optional[int] = ..., end_index: _Optional[int] = ..., mapper_index: _Optional[int] = ..., prev_Centroids: _Optional[_Iterable[_Union[Centroids, _Mapping]]] = ..., reducer_count: _Optional[int] = ...) -> None: ...
 
 class MasterToMapperRes(_message.Message):
     __slots__ = ("success",)
