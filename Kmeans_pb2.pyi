@@ -6,10 +6,12 @@ from typing import ClassVar as _ClassVar, Iterable as _Iterable, Mapping as _Map
 DESCRIPTOR: _descriptor.FileDescriptor
 
 class Centroids(_message.Message):
-    __slots__ = ("data",)
-    DATA_FIELD_NUMBER: _ClassVar[int]
-    data: float
-    def __init__(self, data: _Optional[float] = ...) -> None: ...
+    __slots__ = ("x_cord", "y_cord")
+    X_CORD_FIELD_NUMBER: _ClassVar[int]
+    Y_CORD_FIELD_NUMBER: _ClassVar[int]
+    x_cord: float
+    y_cord: float
+    def __init__(self, x_cord: _Optional[float] = ..., y_cord: _Optional[float] = ...) -> None: ...
 
 class Data(_message.Message):
     __slots__ = ("key", "value")
@@ -20,16 +22,14 @@ class Data(_message.Message):
     def __init__(self, key: _Optional[float] = ..., value: _Optional[float] = ...) -> None: ...
 
 class MasterToMapperReq(_message.Message):
-    __slots__ = ("path", "start_index", "end_index", "prev_Centroids")
-    PATH_FIELD_NUMBER: _ClassVar[int]
+    __slots__ = ("start_index", "end_index", "prev_Centroids")
     START_INDEX_FIELD_NUMBER: _ClassVar[int]
     END_INDEX_FIELD_NUMBER: _ClassVar[int]
     PREV_CENTROIDS_FIELD_NUMBER: _ClassVar[int]
-    path: str
     start_index: int
     end_index: int
     prev_Centroids: _containers.RepeatedCompositeFieldContainer[Centroids]
-    def __init__(self, path: _Optional[str] = ..., start_index: _Optional[int] = ..., end_index: _Optional[int] = ..., prev_Centroids: _Optional[_Iterable[_Union[Centroids, _Mapping]]] = ...) -> None: ...
+    def __init__(self, start_index: _Optional[int] = ..., end_index: _Optional[int] = ..., prev_Centroids: _Optional[_Iterable[_Union[Centroids, _Mapping]]] = ...) -> None: ...
 
 class MasterToMapperRes(_message.Message):
     __slots__ = ("success",)
