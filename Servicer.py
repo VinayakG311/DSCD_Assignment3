@@ -8,7 +8,7 @@ import grpc
 import time
 
 import Kmeans_pb2 as Kmeans_pb2
-import kmeans_pb2_grpc as Kmeans_pb2_grpc
+import Kmeans_pb2_grpc as Kmeans_pb2_grpc
 
 def MapperPartition(ind,data,centroids,reducer_count):
     #If has to be read from that
@@ -48,7 +48,10 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
 
         for i in data:
             point = i.split(",")
-            point = [float(k) for k in point]
+            if point==['']:
+                continue
+            print(point)
+            point = [float(point[0]),float(point[1])]
             min_ind=-1
             min_dist = 1000000
             for j in range(len(centroids)):
@@ -62,13 +65,14 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
         path ="Data/Mappers/M"+str(request.mapper_index)
         if not os.path.isdir(path):
             os.mkdir(path)
+
         writer = open(path+"/Data.txt","w")
         datas=[]
-        for k,v in dict:
+        for k,v in dict.items():
             for j in v:
-                writer.write(str(k)+" "+j[0]+" "+j[1]+"\n")
+                writer.write(str(k)+" "+str(j[0])+" "+str(j[1])+"\n")
                 datas.append([k,j[0],j[1]])
         writer.close()
-        MapperPartition(datas,request.mapper_index,centroids,request.reducer_count)
+        MapperPartition(request.mapper_index,datas,centroids,request.reducer_count)
         return Kmeans_pb2.MasterToMapperRes(success=1)
         # return super().MasterToMapper(request, context)

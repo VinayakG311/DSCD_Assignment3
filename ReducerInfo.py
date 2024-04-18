@@ -2,7 +2,7 @@ import sys
 
 import grpc
 
-import kmeans_pb2_grpc as Kmeans_pb2_grpc 
+import Kmeans_pb2_grpc as Kmeans_pb2_grpc
 
 ip = sys.argv[1]
 class Reducer():

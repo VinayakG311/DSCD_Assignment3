@@ -9,7 +9,7 @@ import grpc
 import time
 
 import Kmeans_pb2 as Kmeans_pb2
-import kmeans_pb2_grpc as Kmeans_pb2_grpc
+import Kmeans_pb2_grpc as Kmeans_pb2_grpc
 
 from Servicer import KmeansServicer
 from MapperInfo import Mapper
