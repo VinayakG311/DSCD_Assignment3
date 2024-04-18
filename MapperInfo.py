@@ -5,7 +5,7 @@ import time
 from concurrent import futures
 from Servicer import KmeansServicer
 
-import kmeans_pb2 as Kmeans_pb2
+import Kmeans_pb2 as Kmeans_pb2
 import kmeans_pb2_grpc as Kmeans_pb2_grpc
 
 port = sys.argv[1]

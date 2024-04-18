@@ -9,7 +9,7 @@ import grpc
 import time
 
 import Kmeans_pb2 as Kmeans_pb2
-import Kmeans_pb2_grpc as Kmeans_pb2_grpc
+import kmeans_pb2_grpc as Kmeans_pb2_grpc
 
 from Servicer import KmeansServicer
 from MapperInfo import Mapper
@@ -21,6 +21,7 @@ from ReducerInfo import Reducer
 
 mapper_port = ["127.0.0.1:50052","127.0.0.1:50053","127.0.0.1:50054","127.0.0.1:50055","127.0.0.1:50056","127.0.0.1:50057","127.0.0.1:50058","127.0.0.1:50059","127.0.0.1:50060","127.0.0.1:50061","127.0.0.1:50062","127.0.0.1:50063","127.0.0.1:50064","127.0.0.1:50065"]
 
+
 # for i in range(1,1000):
 #     port = 50051+i
 #     mapper_port.append(port)
@@ -31,6 +32,12 @@ M,R,K,iter = [int(x) for x in sys.argv[1:5]]
 Mappers = []
 Reducers= []
 IndicesAssigned = []
+
+for i in range(M):
+    Mappers.append(Mapper(name="Mapper"+str(i+1),ip=mapper_port[i]))
+    # print(Mappers[i].ip)
+for i in range(R):
+    Reducers.append(Reducer(name="Reducer"+str(i+1),ip=mapper_port[i+M]))
 
 Centroid = []
 
@@ -64,7 +71,8 @@ def initiateMappers():
                 stub = Kmeans_pb2_grpc.KmeansStub(channel)
                 res = stub.MasterToMapper(request)
                 print(f"{res}")
-        except:
+        except Exception:
+            print(Exception)
             continue
                 
 
@@ -98,6 +106,7 @@ def run():
     server.start()
     i=0
     while i<10:
+        print("HERE....")
         initiateMappers()
         i+=1
 
