@@ -8,7 +8,7 @@ import grpc
 import time
 
 import Kmeans_pb2 as Kmeans_pb2
-import Kmeans_pb2_grpc as Kmeans_pb2_grpc
+import kmeans_pb2_grpc as Kmeans_pb2_grpc
 
 def MapperPartition(ind,data,centroids,reducer_count):
     #If has to be read from that
@@ -16,14 +16,23 @@ def MapperPartition(ind,data,centroids,reducer_count):
     # data = reader.read().split("\n")
 
     #else using the one from servicer
-    size = len(data)
-    alloc = size/reducer_count
-    for i in range(reducer_count):
-        f=open("Data/Mappers/M"+str(ind)+f"/Partition{i+1}.txt","w")
-        red_data = data[i*alloc:(i+1)*alloc]
-        for j in red_data:
-            f.write(f"{j[0]} {j[1]} {j[2]} \n")
+    
+    for i in range(len(data)):
+        point = data[i]
+        key = point[0]
+        
+        parititionFileNumber = key % reducer_count
+        f=open("Data/Mappers/M"+str(ind)+f"/Partition{parititionFileNumber}.txt","a")
+        f.write(f"{point[0]} {point[1]} {point[2]} \n")
         f.close()
+    # size = len(data)
+    # alloc = size/reducer_count
+    # for i in range(reducer_count):
+    #     f=open("Data/Mappers/M"+str(ind)+f"/Partition{i+1}.txt","w")
+    #     red_data = data[i*alloc:(i+1)*alloc]
+    #     for j in red_data:
+    #         f.write(f"{j[0]} {j[1]} {j[2]} \n")
+    #     f.close()
 
 
 class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
@@ -39,7 +48,7 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
 
         for i in data:
             point = i.split(",")
-            point = [int(k) for k in point]
+            point = [float(k) for k in point]
             min_ind=-1
             min_dist = 1000000
             for j in range(len(centroids)):
