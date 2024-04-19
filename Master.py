@@ -48,6 +48,7 @@ with open ("Data/Input/points.txt","r") as f:
         pointsList.append(point.split(","))
     
     Centroid = random.sample(pointsList,K)
+    print(Centroid)
     
     with open("Centroid.txt","w") as g:
         for point in Centroid:
@@ -70,8 +71,10 @@ def initiateMappers():
                 request = Kmeans_pb2.MasterToMapperReq(mapper_index=ind,start_index=IndicesAssigned[ind][0],end_index=IndicesAssigned[ind][1],prev_Centroids=Centroid,reducer_count=R)
                 stub = Kmeans_pb2_grpc.KmeansStub(channel)
                 res = stub.MasterToMapper(request)
+                print("RESPONSE RECEIVED")
                 print(f"{res}")
         except Exception:
+            print("hello")
             print(Exception)
             continue
                 

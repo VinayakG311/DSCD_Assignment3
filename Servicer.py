@@ -76,3 +76,46 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
         MapperPartition(request.mapper_index,datas,centroids,request.reducer_count)
         return Kmeans_pb2.MasterToMapperRes(success=1)
         # return super().MasterToMapper(request, context)
+
+    def MapperToReducer(self, request, context):
+        print(f"Request received{request}")
+        return Kmeans_pb2.MapperToReducerRes(success=1)
+        # return super().MapperToReducer(request, context)
+
+    def ReducerToMapper(self, request, context):
+        print(f"Request received{request}")
+        Key = request.centroid_id
+        Value = request.centroid_values_list
+        key_values = request.key_values
+
+        #sort----------------------------
+        l_uniques_keys = list(set(key_values.keys()))
+        l_uniques_keys.sort()
+        sorted_dict = {}
+        for i in l_uniques_keys:
+            sorted_dict[i] = []
+        
+        for i in l_uniques_keys:
+            sorted_dict[i].append(key_values[i])
+        print(sorted_dict)
+        #---------------------------------
+
+        #write to file
+        updated_centroids = []
+        for i in range(len(sorted_dict)):
+            sum_x = 0
+            sum_y = 0
+            count = 0
+            for j in sorted_dict[i]:
+                sum_x+=j[0]
+                sum_y+=j[1]
+                count+=1
+            updated_centroids.append([sum_x/count,sum_y/count])
+        
+        with open("Data/Reducers/R"+str(request.reducer_index)+"/Centroid.txt","w") as f:
+            for i in updated_centroids:
+                f.write(f"{i[0]} {i[1]} \n")
+        
+
+        return Kmeans_pb2.ReducerToMapperRes(success=1)
+        # return super().ReducerToMapper(request, context)   
