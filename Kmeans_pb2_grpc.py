@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import Kmeans_pb2 as kmeans__pb2
+import kmeans_pb2 as kmeans__pb2
 
 
 class KmeansStub(object):

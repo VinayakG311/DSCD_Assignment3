@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0ckmeans.proto\"+\n\tCentroids\x12\x0e\n\x06x_cord\x18\x01 \x01(\x02\x12\x0e\n\x06y_cord\x18\x02 \x01(\x02\"\"\n\x04\x44\x61ta\x12\x0b\n\x03key\x18\x01 \x01(\x02\x12\r\n\x05value\x18\x02 \x01(\x02\"\x8c\x01\n\x11MasterToMapperReq\x12\x13\n\x0bstart_index\x18\x01 \x01(\x05\x12\x11\n\tend_index\x18\x02 \x01(\x05\x12\x14\n\x0cmapper_index\x18\x03 \x01(\x05\x12\"\n\x0eprev_Centroids\x18\x04 \x03(\x0b\x32\n.Centroids\x12\x15\n\rreducer_count\x18\x05 \x01(\x05\"$\n\x11MasterToMapperRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\"+\n\x12MasterToReducerReq\x12\x15\n\rstart_process\x18\x01 \x01(\x05\"%\n\x12MasterToReducerRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\" \n\x12ReducerToMapperReq\x12\n\n\x02id\x18\x01 \x01(\x05\":\n\x12ReducerToMapperRes\x12\x13\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\x05.Data\x12\x0f\n\x07success\x18\x02 \x01(\x05\x32\xc2\x01\n\x06Kmeans\x12:\n\x0eMasterToMapper\x12\x12.MasterToMapperReq\x1a\x12.MasterToMapperRes\"\x00\x12=\n\x0fMasterToReducer\x12\x13.MasterToReducerReq\x1a\x13.MasterToReducerRes\"\x00\x12=\n\x0fReducerToMapper\x12\x13.ReducerToMapperReq\x1a\x13.ReducerToMapperRes\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0ckmeans.proto\"+\n\tCentroids\x12\x0e\n\x06x_cord\x18\x01 \x01(\x02\x12\x0e\n\x06y_cord\x18\x02 \x01(\x02\"\"\n\x04\x44\x61ta\x12\x0b\n\x03key\x18\x01 \x01(\x02\x12\r\n\x05value\x18\x02 \x01(\x02\"\x8c\x01\n\x11MasterToMapperReq\x12\x13\n\x0bstart_index\x18\x01 \x01(\x05\x12\x11\n\tend_index\x18\x02 \x01(\x05\x12\x14\n\x0cmapper_index\x18\x03 \x01(\x05\x12\"\n\x0eprev_Centroids\x18\x04 \x03(\x0b\x32\n.Centroids\x12\x15\n\rreducer_count\x18\x05 \x01(\x05\"$\n\x11MasterToMapperRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\"7\n\x12MasterToReducerReq\x12\x15\n\rstart_process\x18\x01 \x01(\x05\x12\n\n\x02id\x18\x02 \x01(\x05\"%\n\x12MasterToReducerRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\" \n\x12ReducerToMapperReq\x12\n\n\x02id\x18\x01 \x01(\x05\"m\n\x12ReducerToMapperRes\x12\x13\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\x05.Data\x12\x0f\n\x07success\x18\x02 \x01(\x05\x12\x1c\n\x08\x63\x65ntroid\x18\x03 \x01(\x0b\x32\n.Centroids\x12\x13\n\x0b\x63\x65ntroid_id\x18\x04 \x01(\x05\"%\n\x12MapperToReducerRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\x32\xc2\x01\n\x06Kmeans\x12:\n\x0eMasterToMapper\x12\x12.MasterToMapperReq\x1a\x12.MasterToMapperRes\"\x00\x12=\n\x0fMasterToReducer\x12\x13.MasterToReducerReq\x1a\x13.MasterToReducerRes\"\x00\x12=\n\x0fReducerToMapper\x12\x13.ReducerToMapperReq\x1a\x13.ReducerToMapperRes\"\x00\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -30,13 +30,15 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _globals['_MASTERTOMAPPERRES']._serialized_start=240
   _globals['_MASTERTOMAPPERRES']._serialized_end=276
   _globals['_MASTERTOREDUCERREQ']._serialized_start=278
-  _globals['_MASTERTOREDUCERREQ']._serialized_end=321
-  _globals['_MASTERTOREDUCERRES']._serialized_start=323
-  _globals['_MASTERTOREDUCERRES']._serialized_end=360
-  _globals['_REDUCERTOMAPPERREQ']._serialized_start=362
-  _globals['_REDUCERTOMAPPERREQ']._serialized_end=394
-  _globals['_REDUCERTOMAPPERRES']._serialized_start=396
-  _globals['_REDUCERTOMAPPERRES']._serialized_end=454
-  _globals['_KMEANS']._serialized_start=457
-  _globals['_KMEANS']._serialized_end=651
+  _globals['_MASTERTOREDUCERREQ']._serialized_end=333
+  _globals['_MASTERTOREDUCERRES']._serialized_start=335
+  _globals['_MASTERTOREDUCERRES']._serialized_end=372
+  _globals['_REDUCERTOMAPPERREQ']._serialized_start=374
+  _globals['_REDUCERTOMAPPERREQ']._serialized_end=406
+  _globals['_REDUCERTOMAPPERRES']._serialized_start=408
+  _globals['_REDUCERTOMAPPERRES']._serialized_end=517
+  _globals['_MAPPERTOREDUCERRES']._serialized_start=519
+  _globals['_MAPPERTOREDUCERRES']._serialized_end=556
+  _globals['_KMEANS']._serialized_start=559
+  _globals['_KMEANS']._serialized_end=753
 # @@protoc_insertion_point(module_scope)

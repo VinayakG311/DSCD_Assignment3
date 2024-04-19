@@ -19,7 +19,8 @@ from ReducerInfo import Reducer
 # print(mapper, reducer, centroid, iteration)
 
 
-mapper_port = ["127.0.0.1:50052","127.0.0.1:50053","127.0.0.1:50054","127.0.0.1:50055","127.0.0.1:50056","127.0.0.1:50057","127.0.0.1:50058","127.0.0.1:50059","127.0.0.1:50060","127.0.0.1:50061","127.0.0.1:50062","127.0.0.1:50063","127.0.0.1:50064","127.0.0.1:50065"]
+mapper_port = ["127.0.0.1:50052","127.0.0.1:50053","127.0.0.1:50054","127.0.0.1:50055","127.0.0.1:50056","127.0.0.1:50057","127.0.0.1:50058"]
+reducer_port = ["127.0.0.1:50059","127.0.0.1:50060","127.0.0.1:50061","127.0.0.1:50062","127.0.0.1:50063","127.0.0.1:50064","127.0.0.1:50065"]
 
 
 # for i in range(1,1000):
@@ -79,6 +80,14 @@ def initiateMappers():
             continue
                 
 
+def initiateReducers():
+
+    for i in range(R):
+        with grpc.insecure_channel(reducer_port[i]) as channel:
+            stub= Kmeans_pb2_grpc.KmeansStub(channel)
+            req=Kmeans_pb2.MasterToReducerReq(start_process=1,id=i+1)
+            res=stub.MasterToReducer(req)
+
 
 
 def work_splitter():
@@ -111,6 +120,7 @@ def run():
     while i<10:
         print("HERE....")
         initiateMappers()
+        initiateReducers()
         i+=1
 
     try:
