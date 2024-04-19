@@ -13,13 +13,21 @@ class Centroids(_message.Message):
     y_cord: float
     def __init__(self, x_cord: _Optional[float] = ..., y_cord: _Optional[float] = ...) -> None: ...
 
+class Point(_message.Message):
+    __slots__ = ("x", "y")
+    X_FIELD_NUMBER: _ClassVar[int]
+    Y_FIELD_NUMBER: _ClassVar[int]
+    x: float
+    y: float
+    def __init__(self, x: _Optional[float] = ..., y: _Optional[float] = ...) -> None: ...
+
 class Data(_message.Message):
-    __slots__ = ("key", "value")
+    __slots__ = ("key", "point")
     KEY_FIELD_NUMBER: _ClassVar[int]
-    VALUE_FIELD_NUMBER: _ClassVar[int]
+    POINT_FIELD_NUMBER: _ClassVar[int]
     key: float
-    value: float
-    def __init__(self, key: _Optional[float] = ..., value: _Optional[float] = ...) -> None: ...
+    point: Point
+    def __init__(self, key: _Optional[float] = ..., point: _Optional[_Union[Point, _Mapping]] = ...) -> None: ...
 
 class MasterToMapperReq(_message.Message):
     __slots__ = ("start_index", "end_index", "mapper_index", "prev_Centroids", "reducer_count")
@@ -42,12 +50,14 @@ class MasterToMapperRes(_message.Message):
     def __init__(self, success: _Optional[int] = ...) -> None: ...
 
 class MasterToReducerReq(_message.Message):
-    __slots__ = ("start_process", "id")
+    __slots__ = ("start_process", "id", "M")
     START_PROCESS_FIELD_NUMBER: _ClassVar[int]
     ID_FIELD_NUMBER: _ClassVar[int]
+    M_FIELD_NUMBER: _ClassVar[int]
     start_process: int
     id: int
-    def __init__(self, start_process: _Optional[int] = ..., id: _Optional[int] = ...) -> None: ...
+    M: int
+    def __init__(self, start_process: _Optional[int] = ..., id: _Optional[int] = ..., M: _Optional[int] = ...) -> None: ...
 
 class MasterToReducerRes(_message.Message):
     __slots__ = ("success",)
@@ -62,16 +72,12 @@ class ReducerToMapperReq(_message.Message):
     def __init__(self, id: _Optional[int] = ...) -> None: ...
 
 class ReducerToMapperRes(_message.Message):
-    __slots__ = ("data", "success", "centroid", "centroid_id")
+    __slots__ = ("data", "success")
     DATA_FIELD_NUMBER: _ClassVar[int]
     SUCCESS_FIELD_NUMBER: _ClassVar[int]
-    CENTROID_FIELD_NUMBER: _ClassVar[int]
-    CENTROID_ID_FIELD_NUMBER: _ClassVar[int]
     data: _containers.RepeatedCompositeFieldContainer[Data]
     success: int
-    centroid: Centroids
-    centroid_id: int
-    def __init__(self, data: _Optional[_Iterable[_Union[Data, _Mapping]]] = ..., success: _Optional[int] = ..., centroid: _Optional[_Union[Centroids, _Mapping]] = ..., centroid_id: _Optional[int] = ...) -> None: ...
+    def __init__(self, data: _Optional[_Iterable[_Union[Data, _Mapping]]] = ..., success: _Optional[int] = ...) -> None: ...
 
 class MapperToReducerRes(_message.Message):
     __slots__ = ("success",)

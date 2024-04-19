@@ -10,9 +10,15 @@ message Centroids{
   float x_cord = 1;
   float y_cord = 2;
 }
+
+message Point{
+  float x = 1;
+  float y = 2;
+}
+
 message Data{
   float key=1;
-  float value=2;
+  Point point = 2;
 }
 message MasterToMapperReq{
   // string path=1;
@@ -31,6 +37,7 @@ message MasterToMapperRes{
 message MasterToReducerReq{
   int32 start_process=1;
   int32 id=2;
+  int32 M = 3;
 }
 message MasterToReducerRes{
   int32 success=1;
@@ -42,9 +49,7 @@ message ReducerToMapperReq{
 message ReducerToMapperRes{
   repeated Data data=1;
   int32 success=2;
-  Centroids centroid=3;
-  int32 centroid_id=4;
-
+ 
 }
 message MapperToReducerRes{
   int32 success=1;

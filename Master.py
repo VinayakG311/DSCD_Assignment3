@@ -49,22 +49,29 @@ with open ("Data/Input/points.txt","r") as f:
         pointsList.append(point.split(","))
     
     Centroid = random.sample(pointsList,K)
-    print(Centroid)
+    # print(Centroid)
     
     with open("Centroid.txt","w") as g:
         for point in Centroid:
-            g.write(point[0]+","+point[1])
+            g.write(point[0]+" "+point[1])
     
-    for ind in range(0,len(Centroid)):
-        Centroid[ind] = Kmeans_pb2.Centroids(x_cord=float(Centroid[ind][0]),y_cord=float(Centroid[ind][1]))
+    # for ind in range(0,len(Centroid)):
+    #     Centroid[ind] = Kmeans_pb2.Centroids(x_cord=float(Centroid[ind][0]),y_cord=float(Centroid[ind][1]))
 
 def initiateMappers():
     # centroid1 = Kmeans_pb2.Centroids(data=2.5)
     # centroid2 = Kmeans_pb2.Centroids(data=3.5)
     # centroids = [centroid1,centroid2]
+    with open("Centroid.txt","r") as g:
+        centroids = g.readlines()
+        for ind in range(0,len(centroids)):
+            curr = centroids[ind].split(" ")
+            Centroid[ind] = Kmeans_pb2.Centroids(x_cord=float(curr[0]),y_cord=float(curr[1]))
     
+    # for ind in range(0,len(Centroid)):
+    #     Centroid[ind] = Kmeans_pb2.Centroids(x_cord=float(Centroid[ind][0]),y_cord=float(Centroid[ind][1]))
     work_splitter()
-    
+    success_count = 0
     for ind in range(0,len(Mappers)):
         try:
             with grpc.insecure_channel(Mappers[ind].ip) as channel:
@@ -72,21 +79,35 @@ def initiateMappers():
                 request = Kmeans_pb2.MasterToMapperReq(mapper_index=ind,start_index=IndicesAssigned[ind][0],end_index=IndicesAssigned[ind][1],prev_Centroids=Centroid,reducer_count=R)
                 stub = Kmeans_pb2_grpc.KmeansStub(channel)
                 res = stub.MasterToMapper(request)
-                print("RESPONSE RECEIVED")
-                print(f"{res}")
+                if(res.success == 1):
+                    success_count+=1
+                if(success_count == M):
+                    initiateReducers()
+                # print("RESPONSE RECEIVED")
+                # print(f"{res}")
         except Exception:
-            print("hello")
-            print(Exception)
+            
             continue
                 
 
 def initiateReducers():
 
     for i in range(R):
-        with grpc.insecure_channel(reducer_port[i]) as channel:
-            stub= Kmeans_pb2_grpc.KmeansStub(channel)
-            req=Kmeans_pb2.MasterToReducerReq(start_process=1,id=i+1)
-            res=stub.MasterToReducer(req)
+        try:
+            with grpc.insecure_channel(reducer_port[i]) as channel:
+                stub= Kmeans_pb2_grpc.KmeansStub(channel)
+                req=Kmeans_pb2.MasterToReducerReq(start_process=1,id=i+1,M=M)
+                res=stub.MasterToReducer(req)
+                if(res.success == 1):
+                    reader = open(f"Data/Reducers/R{i+1}.txt","r")
+                    writer = open("Centroid.txt","w")
+                    
+                    centroids = reader.readlines()
+                    centroids.sort()
+                    for centroid in centroids:
+                        writer.write(centroid[1]+" "+centroid[2])
+        except:
+            continue
 
 
 
@@ -116,12 +137,13 @@ def run():
     Kmeans_pb2_grpc.add_KmeansServicer_to_server(KmeansServicer(), server)
     server.add_insecure_port(f"[::]:{port}")
     server.start()
-    i=0
-    while i<10:
-        print("HERE....")
-        initiateMappers()
-        initiateReducers()
-        i+=1
+    initiateMappers()
+    # i=0
+    # while i<10:
+    #     print("HERE....")
+    initiateMappers()
+    #     # initiateReducers()
+        # i+=1
 
     try:
         while True:
