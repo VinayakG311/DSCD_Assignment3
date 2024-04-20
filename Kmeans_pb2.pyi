@@ -50,14 +50,16 @@ class MasterToMapperRes(_message.Message):
     def __init__(self, success: _Optional[int] = ...) -> None: ...
 
 class MasterToReducerReq(_message.Message):
-    __slots__ = ("start_process", "id", "M")
+    __slots__ = ("start_process", "id", "M", "R")
     START_PROCESS_FIELD_NUMBER: _ClassVar[int]
     ID_FIELD_NUMBER: _ClassVar[int]
     M_FIELD_NUMBER: _ClassVar[int]
+    R_FIELD_NUMBER: _ClassVar[int]
     start_process: int
     id: int
     M: int
-    def __init__(self, start_process: _Optional[int] = ..., id: _Optional[int] = ..., M: _Optional[int] = ...) -> None: ...
+    R: int
+    def __init__(self, start_process: _Optional[int] = ..., id: _Optional[int] = ..., M: _Optional[int] = ..., R: _Optional[int] = ...) -> None: ...
 
 class MasterToReducerRes(_message.Message):
     __slots__ = ("success",)
