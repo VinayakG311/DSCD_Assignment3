@@ -1,0 +1,29 @@
+Randomly Initialized Centroids - 
+0.8 9.8
+
+-1.6 7.4
+
+------------1------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+New List Of Coordinates - 
+8.030434846878052 2.5608695683919867
+-0.6750000007450581 7.337499976158142
+------------2------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+9.547368501362048 1.0473684248955626
+-0.17500000447034836 8.141666650772095
