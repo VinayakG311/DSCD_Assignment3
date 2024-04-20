@@ -66,10 +66,12 @@ class MasterToReducerRes(_message.Message):
     def __init__(self, success: _Optional[int] = ...) -> None: ...
 
 class ReducerToMapperReq(_message.Message):
-    __slots__ = ("id",)
+    __slots__ = ("id", "NumMappers")
     ID_FIELD_NUMBER: _ClassVar[int]
+    NUMMAPPERS_FIELD_NUMBER: _ClassVar[int]
     id: int
-    def __init__(self, id: _Optional[int] = ...) -> None: ...
+    NumMappers: int
+    def __init__(self, id: _Optional[int] = ..., NumMappers: _Optional[int] = ...) -> None: ...
 
 class ReducerToMapperRes(_message.Message):
     __slots__ = ("data", "success")
