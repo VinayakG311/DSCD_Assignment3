@@ -26,27 +26,44 @@ def MapperPartition(ind, data, centroids, reducer_count):
     # data = reader.read().split("\n")
 
     # else using the one from servicer
-
+    # print(data)
     for i in range(len(data)):
         point = data[i]
         key = point[0]
 
         parititionFileNumber = key % reducer_count
-        if parititionFileNumber in data_mapper:
-            data_mapper[parititionFileNumber].append([point[0], point[1], point[2]])
-        else:
-            data_mapper[parititionFileNumber] = []
-        f = open("Data/Mappers/M" + str(ind) + f"/Partition{parititionFileNumber}.txt", "a")
-        f.write(f"{point[0]} {point[1]} {point[2]} \n")
+        # if parititionFileNumber in data_mapper:
+        #     data_mapper[parititionFileNumber].append([point[0], point[1], point[2]])
+        # else:
+        #     data_mapper[parititionFileNumber] = []
+        with open("Data/Mappers/M" + str(ind) + f"/Partition{parititionFileNumber+1}.txt", "a") as file:
+            # print(point)
+            
+            file.write(f"{point[0]} {point[1]} {point[2]} \n")
+            # file.close()
+
+
+def shuffle_and_sort(numMappers,currReducer):
+    for i in range(1,numMappers+1):
+        f = open("Data/Mappers/M" + str(i) + f"/Partition{currReducer}.txt", "r")
+        points = f.readlines()
+        points.sort()
         f.close()
+        
+        print(points)
+        g = open("Data/Mappers/M" + str(i) + f"/Partition{currReducer}.txt", "w")
+        
+        for point in points:
+            g.write(point)
+        
+        g.close()
 
-
-def shuffle_and_sort(finalData,currData):
-    for data in currData:
-        finalData[data[0]].append([data[1],data[2]])
+# def shuffle_and_sort(finalData,currData):
+#     for data in currData:
+#         finalData[data[0]].append([data[1],data[2]])
     
-    finalData = dict(sorted(finalData.items()))
-    return finalData
+#     finalData = dict(sorted(finalData.items()))
+#     return finalData
 
 
 def Reduce(key,points):
@@ -76,7 +93,7 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
             point = i.split(",")
             if point == ['']:
                 continue
-            print(point)
+            # print(point)
             point = [float(point[0]), float(point[1])]
             min_ind = -1
             min_dist = 1000000
@@ -99,6 +116,7 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
                 writer.write(str(k+1) + " " + str(j[0]) + " " + str(j[1]) + "\n")
                 datas.append([k+1, j[0], j[1]])
         writer.close()
+        # print(datas)
         MapperPartition(request.mapper_index, datas, centroids, request.reducer_count)
         return Kmeans_pb2.MasterToMapperRes(success=1)
         # return super().MasterToMapper(request, context)
@@ -109,14 +127,15 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
         reducer_Data=[]
         numMappers = request.NumMappers
         for i in range(numMappers):
-            with open(f"Data/Mappers/M{i+1}/Data.txt","r") as f:
+            with open(f"Data/Mappers/M{i+1}/Partition{id}.txt","r") as f:
                 datapoints = f.readlines()
                 
-                for i in range(len(datapoints)):
+                for j in range(len(datapoints)):
                     # print(point)
                     # point = point.split(" ")
-                    point = datapoints[i].split(" ")
+                    point = datapoints[j].split(" ")
                     data.append([int(point[0]),float(point[1]),float(point[2])])
+            open(f"Data/Mappers/M{i+1}/Partition{id}.txt","w").close()
         # centroid_id=data[0][0]
         for i in data:
             point = Kmeans_pb2.Point(x = i[1],y = i[2])
@@ -132,7 +151,9 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
             print("Error")
             return Kmeans_pb2.MasterToReducerRes(success=0)
         # Getting data from mapper
+        shuffle_and_sort(M,request.id)
         finalData = {}
+        R = request.R
         for i in range(0,M):
             try:
                 with grpc.insecure_channel(mapper_port[i]) as channel:
@@ -156,7 +177,7 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
                         finalData[int(j[0])].append([j[1],j[2]])
                         # print(finalData)
                     # print("THIS - > ",finalData)
-                    finalData = dict(sorted(finalData.items()))
+                    # finalData = dict(sorted(finalData.items()))
                     # finalData = shuffle_and_sort(finalData,currData)
             except Exception as e:
                 print(e)
@@ -172,7 +193,9 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
             path = "Data/Reducers/"
             if not os.path.exists(path):
                 os.makedirs(path)
-
-            writer = open(f"{path}R{int(reducerNum)}.txt", "w")
-            writer.write(f"{key} {centroid[0]} {centroid[1]}")
+            # print(f"R{key % R}")
+            fileNum = int(key % R)+1
+            print(fileNum)
+            writer = open(f"{path}R{fileNum}.txt", "a")
+            writer.write(f"{key} {centroid[0]} {centroid[1]}\n")
         return Kmeans_pb2.MasterToReducerRes(success=1)

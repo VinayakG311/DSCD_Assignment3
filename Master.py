@@ -61,7 +61,7 @@ with open("Data/Input/points.txt", "r") as f:
     with open("Centroid.txt", "w") as g:
         for point in Centroid:
             g.write(point[0] + " " + point[1])
-            dumpWrite.write(point[0] + " " + point[1]+"\n")
+            dumpWrite.write(point[0] + " " + point[1])
 
 
     # for ind in range(0,len(Centroid)):
@@ -102,8 +102,11 @@ def initiateMappers(iterationNum):
         centroids = g.readlines()
         for ind in range(0, len(centroids)):
             curr = centroids[ind].split(" ")
+            # if(curr[1][-1] == '\n'):
+            #     sz = len(curr[1])
+            #     curr[1] = curr[1][:sz-1]
             Centroid[ind] = Kmeans_pb2.Centroids(x_cord=float(curr[0]), y_cord=float(curr[1]))
-
+        open("Centroid.txt", 'w').close()
     success_count = 0
     work_splitter()
     with concurrent.futures.ThreadPoolExecutor() as executor:
@@ -127,7 +130,7 @@ def reducerRequest(i):
             print(f"SENDING REQ TO REDUCER {i+1}")
             dumpWrite.write(f"gRPC Request sent by Master to Reducer {i + 1} \n")
             stub = Kmeans_pb2_grpc.KmeansStub(channel)
-            req = Kmeans_pb2.MasterToReducerReq(start_process=1, id=i + 1, M=M)
+            req = Kmeans_pb2.MasterToReducerReq(start_process=1, id=i + 1, M=M,R=R)
             res = stub.MasterToReducer(req)
             print(res)
             if (res.success == 1):
@@ -165,16 +168,23 @@ def initiateReducers():
     for i in range(0, R):
         reader = open(f"Data/Reducers/R{i + 1}.txt", "r")
         centroids = reader.readlines()
+        print(i,centroids)
         for centroid in centroids:
             data.append(centroid)
+            
             # curr = centroid.split(" ")
             #
             # dumpWrite.write(curr[1] + " " + curr[2])
+        open(f"Data/Reducers/R{i + 1}.txt", 'w').close()
     writer=open("Centroid.txt","w")
     for i in data:
         curr = i.split(" ")
-        writer.write(curr[1]+" "+curr[2]+"\n")
-        dumpWrite.write(curr[1] + " " + curr[2]+"\n")
+        
+        # if(curr[2][-1] == '\n'):
+        #     sz = len(curr[2])
+        #     curr[1] = curr[2][:sz-1]
+        writer.write(curr[1]+" "+curr[2])
+        dumpWrite.write(curr[1] + " " + curr[2])
     writer.close()
 
 

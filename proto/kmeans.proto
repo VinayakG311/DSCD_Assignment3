@@ -38,6 +38,7 @@ message MasterToReducerReq{
   int32 start_process=1;
   int32 id=2;
   int32 M = 3;
+  int32 R = 4;
 }
 message MasterToReducerRes{
   int32 success=1;
@@ -46,6 +47,7 @@ message MasterToReducerRes{
 message ReducerToMapperReq{
   int32 id=1;
   int32 NumMappers = 2;
+  
 }
 message ReducerToMapperRes{
   repeated Data data=1;
