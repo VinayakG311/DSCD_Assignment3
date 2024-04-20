@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0ckmeans.proto\"+\n\tCentroids\x12\x0e\n\x06x_cord\x18\x01 \x01(\x02\x12\x0e\n\x06y_cord\x18\x02 \x01(\x02\"\x1d\n\x05Point\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\"*\n\x04\x44\x61ta\x12\x0b\n\x03key\x18\x01 \x01(\x02\x12\x15\n\x05point\x18\x02 \x01(\x0b\x32\x06.Point\"\x8c\x01\n\x11MasterToMapperReq\x12\x13\n\x0bstart_index\x18\x01 \x01(\x05\x12\x11\n\tend_index\x18\x02 \x01(\x05\x12\x14\n\x0cmapper_index\x18\x03 \x01(\x05\x12\"\n\x0eprev_Centroids\x18\x04 \x03(\x0b\x32\n.Centroids\x12\x15\n\rreducer_count\x18\x05 \x01(\x05\"$\n\x11MasterToMapperRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\"B\n\x12MasterToReducerReq\x12\x15\n\rstart_process\x18\x01 \x01(\x05\x12\n\n\x02id\x18\x02 \x01(\x05\x12\t\n\x01M\x18\x03 \x01(\x05\"%\n\x12MasterToReducerRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\" \n\x12ReducerToMapperReq\x12\n\n\x02id\x18\x01 \x01(\x05\":\n\x12ReducerToMapperRes\x12\x13\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\x05.Data\x12\x0f\n\x07success\x18\x02 \x01(\x05\"%\n\x12MapperToReducerRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\x32\xc2\x01\n\x06Kmeans\x12:\n\x0eMasterToMapper\x12\x12.MasterToMapperReq\x1a\x12.MasterToMapperRes\"\x00\x12=\n\x0fMasterToReducer\x12\x13.MasterToReducerReq\x1a\x13.MasterToReducerRes\"\x00\x12=\n\x0fReducerToMapper\x12\x13.ReducerToMapperReq\x1a\x13.ReducerToMapperRes\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0ckmeans.proto\"+\n\tCentroids\x12\x0e\n\x06x_cord\x18\x01 \x01(\x02\x12\x0e\n\x06y_cord\x18\x02 \x01(\x02\"\x1d\n\x05Point\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\"*\n\x04\x44\x61ta\x12\x0b\n\x03key\x18\x01 \x01(\x02\x12\x15\n\x05point\x18\x02 \x01(\x0b\x32\x06.Point\"\x8c\x01\n\x11MasterToMapperReq\x12\x13\n\x0bstart_index\x18\x01 \x01(\x05\x12\x11\n\tend_index\x18\x02 \x01(\x05\x12\x14\n\x0cmapper_index\x18\x03 \x01(\x05\x12\"\n\x0eprev_Centroids\x18\x04 \x03(\x0b\x32\n.Centroids\x12\x15\n\rreducer_count\x18\x05 \x01(\x05\"$\n\x11MasterToMapperRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\"B\n\x12MasterToReducerReq\x12\x15\n\rstart_process\x18\x01 \x01(\x05\x12\n\n\x02id\x18\x02 \x01(\x05\x12\t\n\x01M\x18\x03 \x01(\x05\"%\n\x12MasterToReducerRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\"4\n\x12ReducerToMapperReq\x12\n\n\x02id\x18\x01 \x01(\x05\x12\x12\n\nNumMappers\x18\x02 \x01(\x05\":\n\x12ReducerToMapperRes\x12\x13\n\x04\x64\x61ta\x18\x01 \x03(\x0b\x32\x05.Data\x12\x0f\n\x07success\x18\x02 \x01(\x05\"%\n\x12MapperToReducerRes\x12\x0f\n\x07success\x18\x01 \x01(\x05\x32\xc2\x01\n\x06Kmeans\x12:\n\x0eMasterToMapper\x12\x12.MasterToMapperReq\x1a\x12.MasterToMapperRes\"\x00\x12=\n\x0fMasterToReducer\x12\x13.MasterToReducerReq\x1a\x13.MasterToReducerRes\"\x00\x12=\n\x0fReducerToMapper\x12\x13.ReducerToMapperReq\x1a\x13.ReducerToMapperRes\"\x00\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -36,11 +36,11 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _globals['_MASTERTOREDUCERRES']._serialized_start=385
   _globals['_MASTERTOREDUCERRES']._serialized_end=422
   _globals['_REDUCERTOMAPPERREQ']._serialized_start=424
-  _globals['_REDUCERTOMAPPERREQ']._serialized_end=456
-  _globals['_REDUCERTOMAPPERRES']._serialized_start=458
-  _globals['_REDUCERTOMAPPERRES']._serialized_end=516
-  _globals['_MAPPERTOREDUCERRES']._serialized_start=518
-  _globals['_MAPPERTOREDUCERRES']._serialized_end=555
-  _globals['_KMEANS']._serialized_start=558
-  _globals['_KMEANS']._serialized_end=752
+  _globals['_REDUCERTOMAPPERREQ']._serialized_end=476
+  _globals['_REDUCERTOMAPPERRES']._serialized_start=478
+  _globals['_REDUCERTOMAPPERRES']._serialized_end=536
+  _globals['_MAPPERTOREDUCERRES']._serialized_start=538
+  _globals['_MAPPERTOREDUCERRES']._serialized_end=575
+  _globals['_KMEANS']._serialized_start=578
+  _globals['_KMEANS']._serialized_end=772
 # @@protoc_insertion_point(module_scope)

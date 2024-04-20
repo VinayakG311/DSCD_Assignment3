@@ -107,9 +107,9 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
         id=request.id
         data=[]
         reducer_Data=[]
-        numMappers = M
+        numMappers = request.NumMappers
         for i in range(numMappers):
-            with open(f"Data/Mappers/M{i}/Data.txt","r") as f:
+            with open(f"Data/Mappers/M{i+1}/Data.txt","r") as f:
                 datapoints = f.readlines()
                 
                 for i in range(len(datapoints)):
@@ -126,17 +126,19 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
         return Kmeans_pb2.ReducerToMapperRes(success=1,data=reducer_Data)
 
     def MasterToReducer(self, request, context):
+        # print(f"Master has informed Reducer {request.id}")
         M = request.M
         if request.start_process != 1:
             print("Error")
             return Kmeans_pb2.MasterToReducerRes(success=0)
         # Getting data from mapper
         finalData = {}
-        for i in mapper_port:
+        for i in range(0,M):
             try:
-                with grpc.insecure_channel(i) as channel:
+                with grpc.insecure_channel(mapper_port[i]) as channel:
                     stub = Kmeans_pb2_grpc.KmeansStub(channel)
-                    req = Kmeans_pb2.ReducerToMapperReq(id=request.id)
+                    print(f"SENDING REQ TO MAPPER {i+1}")
+                    req = Kmeans_pb2.ReducerToMapperReq(id=request.id,NumMappers = request.M)
                     res = stub.ReducerToMapper(req)
                     d = res.data
                     # print(d)
@@ -156,21 +158,21 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
                     # print("THIS - > ",finalData)
                     finalData = dict(sorted(finalData.items()))
                     # finalData = shuffle_and_sort(finalData,currData)
-            except:
-                
+            except Exception as e:
+                print(e)
                 break
                 # data.append(keyval)
             
-        print(finalData)
+        # print(finalData)
         for data in finalData:
             key = data
             points = finalData[key]
             reducerNum,centroid = Reduce(key,points)
-
+            
             path = "Data/Reducers/"
             if not os.path.exists(path):
                 os.makedirs(path)
 
-            writer = open(f"{path}R{reducerNum}.txt", "w")
+            writer = open(f"{path}R{int(reducerNum)}.txt", "w")
             writer.write(f"{key} {centroid[0]} {centroid[1]}")
         return Kmeans_pb2.MasterToReducerRes(success=1)
