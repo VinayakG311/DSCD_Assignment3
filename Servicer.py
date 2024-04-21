@@ -210,3 +210,6 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
             writer = open(f"{path}R{fileNum}.txt", "a")
             writer.write(f"{key} {centroid[0]} {centroid[1]}\n")
         return Kmeans_pb2.MasterToReducerRes(success=1)
+    def CheckMapperAlive(self, request, context):
+
+        return  Kmeans_pb2.AliveRes()
