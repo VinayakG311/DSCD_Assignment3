@@ -67,12 +67,41 @@ with open("Data/Input/points.txt", "r") as f:
     # for ind in range(0,len(Centroid)):
     #     Centroid[ind] = Kmeans_pb2.Centroids(x_cord=float(Centroid[ind][0]),y_cord=float(Centroid[ind][1]))
 
+def checkAlive(ind,morR):
+    if morR=="m":
+        ip=mapper_port[ind]
+    else:
+        ip=reducer_port[ind]
+    try:
+        with grpc.insecure_channel(ip) as channel:
+            stub=Kmeans_pb2_grpc.KmeansStub(channel)
+            res=stub.CheckMapperAlive(Kmeans_pb2.AliveReq())
+            return [True,ip]
+    except:
+        return [False,ip]
+
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    f = [executor.submit(checkAlive, ind,"m") for ind in range(0, M)]
+    r = [future.result() for future in concurrent.futures.as_completed(f)]
+for res in r:
+    if res[0]==False:
+        M-=1
+        mapper_port.remove(res[1])
+
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    f = [executor.submit(checkAlive, i,"r") for i in range(0, R)]
+    r = [future.result() for future in concurrent.futures.as_completed(f)]
+
+for res in r:
+    if res[0]==False:
+        R-=1
+        reducer_port.remove(res[1])
 
 def mapperRequest(ind, success_count):
     try:
-        with grpc.insecure_channel(Mappers[ind].ip) as channel:
+        with grpc.insecure_channel(mapper_port[ind]) as channel:
             dumpWrite.write(f"gRPC Request sent by Master to Mapper {ind + 1} \n")
-            print(f"SENDING REQ TO {Mappers[ind].ip}")
+            print(f"SENDING REQ TO {mapper_port[ind]}")
             request = Kmeans_pb2.MasterToMapperReq(mapper_index=ind + 1, start_index=IndicesAssigned[ind][0],
                                                    end_index=IndicesAssigned[ind][1], prev_Centroids=Centroid,
                                                    reducer_count=R)
@@ -84,7 +113,7 @@ def mapperRequest(ind, success_count):
             while (res.success == 0):
                 dumpWrite.write(f"gRPC Failure Response Received by Master from Mapper {ind + 1} !! Sending Request Again\n")
                 dumpWrite.write(f"gRPC Request sent by Master to Mapper {ind + 1} \n")
-                print(f"SENDING REQ TO {Mappers[ind].ip}")
+                print(f"SENDING REQ TO {mapper_port[ind]}")
                 request = Kmeans_pb2.MasterToMapperReq(mapper_index=ind + 1, start_index=IndicesAssigned[ind][0],
                                                     end_index=IndicesAssigned[ind][1], prev_Centroids=Centroid,
                                                     reducer_count=R)
@@ -92,7 +121,7 @@ def mapperRequest(ind, success_count):
                 res = stub.MasterToMapper(request)
                 if(res.success == 1):
                     dumpWrite.write(f"gRPC Success Response Received by Master from Mapper {ind + 1} \n")
-                    return True
+                    return [True,"","Alive"]
                
             # else:
             #     dumpWrite.write(f"gRPC Failure Response Received by Master from Mapper {ind + 1} !! Sending Request Again\n")
@@ -104,8 +133,8 @@ def mapperRequest(ind, success_count):
             # print("RESPONSE RECEIVED")
             # print(f"{res}")
     except Exception as e:
-        print(e)
-        return False
+        
+        return [False,mapper_port[ind],"Dead"]
 
 
 def initiateMappers(iterationNum):
@@ -116,9 +145,7 @@ def initiateMappers(iterationNum):
         centroids = g.readlines()
         for ind in range(0, len(centroids)):
             curr = centroids[ind].split(" ")
-            # if(curr[1][-1] == '\n'):
-            #     sz = len(curr[1])
-            #     curr[1] = curr[1][:sz-1]
+          
             Centroid[ind] = Kmeans_pb2.Centroids(x_cord=float(curr[0]), y_cord=float(curr[1]))
         open("Centroid.txt", 'w').close()
     success_count = 0
@@ -135,11 +162,10 @@ def initiateMappers(iterationNum):
     activeMappers = []
     print(results)
     for res in results:
-        if (res):
+        if (res[0]==True):
             count += 1
-            
-      
-    
+        else:
+            print(res)
     
     print(count)
     if(count == M):
@@ -161,13 +187,14 @@ def reducerRequest(i):
             print(res)
             if(res.success == 1):
                  dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
+				 return [True,"","Alive"]
             while(res.success == 0):
                 dumpWrite.write(f"gRPC Failure Response Received by Master from Reducer {i + 1} !!, Sending Request again.\n")
                 reducerRequest(i)
                 req = Kmeans_pb2.MasterToReducerReq(start_process=1, id=i + 1, M=M,R=R)
                 res = stub.MasterToReducer(req)
                 dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
-                return
+                return [True,"","Alive"]
                 
                 # reader = open(f"Data/Reducers/R{i + 1}.txt", "r")
                 # writer = open("Centroid.txt", "w")
@@ -183,8 +210,8 @@ def reducerRequest(i):
             #     reducerRequest(i)
             # dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
     except Exception as e:
-        print(e)
-        return
+        
+        return [False,reducer_port[i],"Dead"]
 
 
 def initiateReducers():
@@ -251,6 +278,25 @@ def startKMeans():
         initiateMappers(i)
         # if M_count == M:
         #     initiateReducers()
+		prev_centroid = []
+		reader= open("Centroid.txt","r")
+        reader=reader.read().split("\n")
+        new_centroids = []
+        for j in reader:
+            newc = j.split(" ")
+            if newc==['']:
+                continue
+            newx= float(newc[0])
+            newy=float(newc[1])
+            new_centroids.append([newx,newy])
+        if prev_centroid==[]:
+            prev_centroid=new_centroids
+        else:
+            thresh = 0.00001
+            # for j in range(len(new_centroids)):
+            #     if abs(new_centroids[j][0]-prev_centroid[j][0])<=thresh and abs(new_centroids[j][1]-prev_centroid[j][1])<=thresh:
+            #         return
+
         i += 1
 
 
