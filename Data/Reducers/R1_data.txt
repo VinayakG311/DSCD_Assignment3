@@ -1,0 +1,600 @@
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 22.927939033508302 71.95787086486817
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 2.488985300064087 15.868564128875732
+Ending iteration
+starting iteration
+2.0 23.759854157765705 67.04212760925293
+Ending iteration
+starting iteration
+2.0 74.79769897460938 42.12135553359985
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration
+starting iteration
+2.0 80.42453155517578 42.0382604598999
+Ending iteration
+starting iteration
+2.0 23.860369152492947 74.24312422010634
+Ending iteration

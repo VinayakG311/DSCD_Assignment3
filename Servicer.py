@@ -133,16 +133,25 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
         data=[]
         reducer_Data=[]
         numMappers = request.NumMappers
+
+
         for i in range(numMappers):
+            f3 = open(f"Data/Mappers/M{i + 1}/partition{id}_data.txt", "a")
+            f3.write("Iteration Started")
             with open(f"Data/Mappers/M{i+1}/Partition{id}.txt","r") as f:
+
                 datapoints = f.readlines()
                 
                 for j in range(len(datapoints)):
-                    # print(point)
-                    # point = point.split(" ")
+
+                    f3.write(datapoints[j])
                     point = datapoints[j].split(" ")
                     data.append([int(point[0]),float(point[1]),float(point[2])])
+            f3.write("Iteration Ended \n")
+            f3.close()
+
             open(f"Data/Mappers/M{i+1}/Partition{id}.txt","w").close()
+
         # centroid_id=data[0][0]
         for i in data:
             point = Kmeans_pb2.Point(x = i[1],y = i[2])

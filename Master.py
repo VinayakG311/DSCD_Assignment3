@@ -110,6 +110,7 @@ def mapperRequest(ind, success_count):
             if(res.success == 1):
                 dumpWrite.write(f"gRPC Success Response Received by Master from Mapper {ind + 1} \n")
                 return [True,"","Alive"]
+                return [True,"","Alive"]
             while (res.success == 0):
                 dumpWrite.write(f"gRPC Failure Response Received by Master from Mapper {ind + 1} !! Sending Request Again\n")
                 dumpWrite.write(f"gRPC Request sent by Master to Mapper {ind + 1} \n")
@@ -233,23 +234,21 @@ def initiateReducers():
     dumpWrite.write("New List Of Coordinates - \n")
     data=[]
     for i in range(0, R):
+        writer=open(f"Data/Reducers/R{i+1}_data.txt","a")
+        writer.write("starting iteration\n")
         reader = open(f"Data/Reducers/R{i + 1}.txt", "r")
         centroids = reader.readlines()
         print(i,centroids)
         for centroid in centroids:
+            writer.write(centroid)
             data.append(centroid)
-            
-            # curr = centroid.split(" ")
-            #
-            # dumpWrite.write(curr[1] + " " + curr[2])
         open(f"Data/Reducers/R{i + 1}.txt", 'w').close()
+        writer.write("Ending iteration\n")
+        writer.close()
     writer=open("Centroid.txt","w")
     for i in data:
         curr = i.split(" ")
-        
-        # if(curr[2][-1] == '\n'):
-        #     sz = len(curr[2])
-        #     curr[1] = curr[2][:sz-1]
+
         writer.write(curr[1]+" "+curr[2])
         dumpWrite.write(curr[1] + " " + curr[2])
     writer.close()
