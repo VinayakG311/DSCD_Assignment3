@@ -29,6 +29,11 @@ class KmeansStub(object):
                 request_serializer=kmeans__pb2.ReducerToMapperReq.SerializeToString,
                 response_deserializer=kmeans__pb2.ReducerToMapperRes.FromString,
                 )
+        self.CheckMapperAlive = channel.unary_unary(
+                '/Kmeans/CheckMapperAlive',
+                request_serializer=kmeans__pb2.AliveReq.SerializeToString,
+                response_deserializer=kmeans__pb2.AliveRes.FromString,
+                )
 
 
 class KmeansServicer(object):
@@ -52,6 +57,12 @@ class KmeansServicer(object):
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
+    def CheckMapperAlive(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
 
 def add_KmeansServicer_to_server(servicer, server):
     rpc_method_handlers = {
@@ -69,6 +80,11 @@ def add_KmeansServicer_to_server(servicer, server):
                     servicer.ReducerToMapper,
                     request_deserializer=kmeans__pb2.ReducerToMapperReq.FromString,
                     response_serializer=kmeans__pb2.ReducerToMapperRes.SerializeToString,
+            ),
+            'CheckMapperAlive': grpc.unary_unary_rpc_method_handler(
+                    servicer.CheckMapperAlive,
+                    request_deserializer=kmeans__pb2.AliveReq.FromString,
+                    response_serializer=kmeans__pb2.AliveRes.SerializeToString,
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -128,5 +144,22 @@ class Kmeans(object):
         return grpc.experimental.unary_unary(request, target, '/Kmeans/ReducerToMapper',
             kmeans__pb2.ReducerToMapperReq.SerializeToString,
             kmeans__pb2.ReducerToMapperRes.FromString,
+            options, channel_credentials,
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
+
+    @staticmethod
+    def CheckMapperAlive(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(request, target, '/Kmeans/CheckMapperAlive',
+            kmeans__pb2.AliveReq.SerializeToString,
+            kmeans__pb2.AliveRes.FromString,
             options, channel_credentials,
             insecure, call_credentials, compression, wait_for_ready, timeout, metadata)

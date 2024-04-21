@@ -5,6 +5,14 @@ from typing import ClassVar as _ClassVar, Iterable as _Iterable, Mapping as _Map
 
 DESCRIPTOR: _descriptor.FileDescriptor
 
+class AliveReq(_message.Message):
+    __slots__ = ()
+    def __init__(self) -> None: ...
+
+class AliveRes(_message.Message):
+    __slots__ = ()
+    def __init__(self) -> None: ...
+
 class Centroids(_message.Message):
     __slots__ = ("x_cord", "y_cord")
     X_CORD_FIELD_NUMBER: _ClassVar[int]
