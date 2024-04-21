@@ -109,7 +109,7 @@ def mapperRequest(ind, success_count):
             res = stub.MasterToMapper(request)
             if(res.success == 1):
                 dumpWrite.write(f"gRPC Success Response Received by Master from Mapper {ind + 1} \n")
-                return True
+                return [True,"","Alive"]
             while (res.success == 0):
                 dumpWrite.write(f"gRPC Failure Response Received by Master from Mapper {ind + 1} !! Sending Request Again\n")
                 dumpWrite.write(f"gRPC Request sent by Master to Mapper {ind + 1} \n")
@@ -185,9 +185,11 @@ def reducerRequest(i):
             req = Kmeans_pb2.MasterToReducerReq(start_process=1, id=i + 1, M=M,R=R)
             res = stub.MasterToReducer(req)
             print(res)
+
             if(res.success == 1):
-                 dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
-				 return [True,"","Alive"]
+                dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
+                return [True, "", "Alive"]
+
             while(res.success == 0):
                 dumpWrite.write(f"gRPC Failure Response Received by Master from Reducer {i + 1} !!, Sending Request again.\n")
                 reducerRequest(i)
@@ -210,7 +212,6 @@ def reducerRequest(i):
             #     reducerRequest(i)
             # dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
     except Exception as e:
-        
         return [False,reducer_port[i],"Dead"]
 
 
@@ -278,9 +279,9 @@ def startKMeans():
         initiateMappers(i)
         # if M_count == M:
         #     initiateReducers()
-		prev_centroid = []
-		reader= open("Centroid.txt","r")
-        reader=reader.read().split("\n")
+        prev_centroid = []
+        reader = open("Centroid.txt", "r")
+        reader = reader.read().split("\n")
         new_centroids = []
         for j in reader:
             newc = j.split(" ")

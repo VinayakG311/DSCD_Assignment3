@@ -1,123 +1,91 @@
 Randomly Initialized Centroids - 
+22.918984884832927 86.29388886815464 
+65.92469227195072 51.192695664924834 
 31.557122052707076 36.90041258086754 
-85.32433236307622 38.85085293948647 
-15.256211095947226 62.08885022713485 
 ------------1------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-80.42453155517578 42.0382604598999
-21.496073246002197 31.84015636444092
-22.927939033508302 71.95787086486817
+45.04921658833822 52.895389795303345
+39.40253922518562 54.64208995594698
+24.302823890339244 55.84376170418479
 ------------2------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
-------------3------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+37.033486684163414 65.60900115966797
+74.79769897460938 42.12135553359985
+16.272341858256947 58.128696008162066
+------------3------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
+35.04699579874674 68.62279891967773
+14.053086863623726 51.89363299475776
 ------------4------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
+29.400230765342712 73.09907913208008
 80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
+14.508272920336042 41.99812248774937
 ------------5------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
@@ -126,15 +94,18 @@ gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request agai
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------6------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -142,19 +113,28 @@ gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------7------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
@@ -163,27 +143,18 @@ gRPC Request sent by Master to Reducer 1
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------8------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
@@ -194,10 +165,12 @@ gRPC Request sent by Master to Reducer 1
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
@@ -205,35 +178,36 @@ gRPC Request sent by Master to Reducer 1
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------9------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------10------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -241,117 +215,76 @@ gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------11------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------12------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------13------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-New List Of Coordinates - 
-80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
-------------14------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
@@ -360,99 +293,130 @@ gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request agai
 gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
 80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
+------------14------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------15------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------16------------- 
 gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------17------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------18------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -460,24 +424,65 @@ gRPC Success Response Received by Master from Mapper 1
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------19------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+80.42453155517578 42.0382604598999
+23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
+------------20------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
+------------21------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
@@ -485,66 +490,16 @@ gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request agai
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
-------------20------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-New List Of Coordinates - 
 20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
-------------21------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-New List Of Coordinates - 
-80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
 ------------22------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -554,33 +509,18 @@ gRPC Success Response Received by Master from Mapper 1
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------23------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-New List Of Coordinates - 
-80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
-------------24------------- 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
@@ -588,37 +528,6 @@ gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
-------------25------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
@@ -627,16 +536,47 @@ gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request agai
 gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
-------------26------------- 
+20.336072365442913 35.09856208165487
+------------24------------- 
 gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
+------------25------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
@@ -646,13 +586,41 @@ gRPC Request sent by Master to Reducer 1
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
 80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
+------------26------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------27------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -662,61 +630,76 @@ gRPC Success Response Received by Master from Mapper 1
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
+     xõ€5   ˆë€5                   ¤    80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------28------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------29------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------30------------- 
 gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------31------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -728,26 +711,27 @@ gRPC Success Response Received by Master from Reducer 1
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------32------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------33------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -764,146 +748,185 @@ gRPC Success Response Received by Master from Reducer 1
 gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------34------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------35------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------36------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------37------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------38------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------39------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------40------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
@@ -912,11 +935,10 @@ gRPC Success Response Received by Master from Reducer 2
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------41------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -924,39 +946,38 @@ gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-New List Of Coordinates - 
-80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
-------------42------------- 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+80.42453155517578 42.0382604598999
+23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
+------------42------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------43------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -966,31 +987,14 @@ gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
@@ -998,21 +1002,14 @@ gRPC Request sent by Master to Reducer 2
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------44------------- 
 gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
@@ -1021,182 +1018,205 @@ gRPC Request sent by Master to Reducer 2
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------45------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------46------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
-------------47------------- 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-New List Of Coordinates - 
-80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
-------------48------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
+------------47------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
 80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
+------------48------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------49------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
-   ÿÿÿÿÿÿÿ        @l,                              gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------50------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------51------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-New List Of Coordinates - 
-80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
-------------52------------- 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
 80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
+------------52------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------53------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+80.42453155517578 42.0382604598999
+23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
+------------54------------- 
+gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
@@ -1206,56 +1226,13 @@ gRPC Request sent by Master to Reducer 1
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
+23.860369152492947 74.24312422010634
 80.42453155517578 42.0382604598999
 20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
-------------54------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
 ------------55------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -1263,8 +1240,6 @@ gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
@@ -1273,71 +1248,62 @@ gRPC Success Response Received by Master from Reducer 1
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------56------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------57------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+80.42453155517578 42.0382604598999
+23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
+------------58------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
+23.860369152492947 74.24312422010634
 80.42453155517578 42.0382604598999
 20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
-------------58------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
 ------------59------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -1345,63 +1311,68 @@ gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------60------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------61------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------62------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -1418,46 +1389,36 @@ gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------63------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------64------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -1467,59 +1428,58 @@ gRPC Success Response Received by Master from Mapper 2
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------65------------- 
 gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------66------------- 
 gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------67------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -1527,24 +1487,24 @@ gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------68------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -1552,86 +1512,72 @@ gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------69------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------70------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------71------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
@@ -1640,15 +1586,16 @@ gRPC Success Response Received by Master from Reducer 2
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------72------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
@@ -1658,28 +1605,18 @@ gRPC Request sent by Master to Reducer 2
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------73------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
@@ -1690,24 +1627,44 @@ gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request agai
 gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------74------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
+------------75------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
@@ -1716,24 +1673,7 @@ gRPC Success Response Received by Master from Mapper 1
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
-------------75------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
@@ -1743,13 +1683,22 @@ gRPC Success Response Received by Master from Reducer 1
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------76------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
@@ -1757,9 +1706,9 @@ gRPC Request sent by Master to Reducer 2
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------77------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -1775,20 +1724,36 @@ gRPC Request sent by Master to Reducer 1
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------78------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
+------------79------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
@@ -1797,52 +1762,21 @@ gRPC Success Response Received by Master from Mapper 1
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
-------------79------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------80------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -1850,19 +1784,26 @@ gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------81------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -1870,16 +1811,57 @@ gRPC Success Response Received by Master from Mapper 1
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------82------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
+------------83------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
@@ -1889,10 +1871,25 @@ gRPC Success Response Received by Master from Reducer 2
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
 80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
-------------83------------- 
+20.336072365442913 35.09856208165487
+------------84------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
+------------85------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
@@ -1901,61 +1898,22 @@ gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-New List Of Coordinates - 
-80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
-------------84------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
-------------85------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------86------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
@@ -1969,9 +1927,9 @@ gRPC Success Response Received by Master from Reducer 1
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------87------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -1979,114 +1937,97 @@ gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------88------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------89------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------90------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
+------------91------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
-------------91------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------92------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
@@ -2094,138 +2035,91 @@ gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------93------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------94------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------95------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
+gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
+gRPC Request sent by Master to Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------96------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
-gRPC Request sent by Master to Mapper 1 
-gRPC Success Response Received by Master from Mapper 1 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
-23.860369152492947 74.24312422010634
-------------97------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
-gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
-gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
-gRPC Request sent by Master to Reducer 1 
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-New List Of Coordinates - 
-80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
-23.860369152492947 74.24312422010634
-------------98------------- 
-gRPC Request sent by Master to Mapper 1 
-gRPC Request sent by Master to Mapper 2 
-gRPC Success Response Received by Master from Mapper 2 
-gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
@@ -2234,36 +2128,69 @@ gRPC Success Response Received by Master from Reducer 1
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
 20.336072365442913 35.09856208165487
+------------97------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
+gRPC Request sent by Master to Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
 80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
+------------98------------- 
+gRPC Request sent by Master to Mapper 1 
+gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Success Response Received by Master from Mapper 2 
+gRPC Success Response Received by Master from Mapper 1 
+gRPC Request sent by Master to Reducer 1 
+gRPC Request sent by Master to Reducer 2 
+gRPC Success Response Received by Master from Reducer 1 
+gRPC Success Response Received by Master from Reducer 2 
+New List Of Coordinates - 
+23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
 ------------99------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
 gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
 gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Success Response Received by Master from Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
 gRPC Request sent by Master to Reducer 1 
 gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
 gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
 gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
 80.42453155517578 42.0382604598999
-20.336072365442913 35.09856208165487
 23.860369152492947 74.24312422010634
+20.336072365442913 35.09856208165487
 ------------100------------- 
 gRPC Request sent by Master to Mapper 1 
 gRPC Request sent by Master to Mapper 2 
+gRPC Failure Response Received by Master from Mapper 1 !! Sending Request Again
+gRPC Request sent by Master to Mapper 1 
 gRPC Failure Response Received by Master from Mapper 2 !! Sending Request Again
 gRPC Request sent by Master to Mapper 2 
 gRPC Success Response Received by Master from Mapper 1 
@@ -2272,25 +2199,10 @@ gRPC Request sent by Master to Reducer 1
 gRPC Request sent by Master to Reducer 2 
 gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
 gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Failure Response Received by Master from Reducer 1 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 1 
-gRPC Failure Response Received by Master from Reducer 2 !!, Sending Request again.
-gRPC Request sent by Master to Reducer 2 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
-gRPC Success Response Received by Master from Reducer 1 
-gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 2 
 gRPC Success Response Received by Master from Reducer 1 
 New List Of Coordinates - 
-20.336072365442913 35.09856208165487
-80.42453155517578 42.0382604598999
 23.860369152492947 74.24312422010634
+80.42453155517578 42.0382604598999
+20.336072365442913 35.09856208165487
