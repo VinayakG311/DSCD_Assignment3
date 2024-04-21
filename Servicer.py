@@ -6,7 +6,7 @@ from threading import Thread
 
 import grpc
 import time
-
+import random
 import Kmeans_pb2 as Kmeans_pb2
 import Kmeans_pb2_grpc as Kmeans_pb2_grpc
 
@@ -79,6 +79,10 @@ def Reduce(key,points):
     return [key,[xSum/count,ySum/count]]
 class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
     def MasterToMapper(self, request, context):
+        flag = random.uniform(0, 1)
+        
+        if(flag < 0.5):
+            return Kmeans_pb2.MasterToMapperRes(success=0)
         print(f"Request received{request}")
         file = open("Data/Input/points.txt", "r")
         data = file.read().split("\n")[request.start_index:request.end_index]
@@ -118,6 +122,9 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
         writer.close()
         # print(datas)
         MapperPartition(request.mapper_index, datas, centroids, request.reducer_count)
+        
+       
+        
         return Kmeans_pb2.MasterToMapperRes(success=1)
         # return super().MasterToMapper(request, context)
 
@@ -146,6 +153,10 @@ class KmeansServicer(Kmeans_pb2_grpc.KmeansServicer):
 
     def MasterToReducer(self, request, context):
         # print(f"Master has informed Reducer {request.id}")
+        flag = random.uniform(0, 1)
+        
+        if(flag < 0.5):
+            return Kmeans_pb2.MasterToReducerRes(success=0)
         M = request.M
         if request.start_process != 1:
             print("Error")

@@ -78,24 +78,38 @@ def mapperRequest(ind, success_count):
                                                    reducer_count=R)
             stub = Kmeans_pb2_grpc.KmeansStub(channel)
             res = stub.MasterToMapper(request)
-
-            if (res.success == 1):
-
+            if(res.success == 1):
                 dumpWrite.write(f"gRPC Success Response Received by Master from Mapper {ind + 1} \n")
                 return True
-            else:
-                dumpWrite.write(f"gRPC Failure Response Received by Master from Mapper {ind + 1} \n")
-                return False
+            while (res.success == 0):
+                dumpWrite.write(f"gRPC Failure Response Received by Master from Mapper {ind + 1} !! Sending Request Again\n")
+                dumpWrite.write(f"gRPC Request sent by Master to Mapper {ind + 1} \n")
+                print(f"SENDING REQ TO {Mappers[ind].ip}")
+                request = Kmeans_pb2.MasterToMapperReq(mapper_index=ind + 1, start_index=IndicesAssigned[ind][0],
+                                                    end_index=IndicesAssigned[ind][1], prev_Centroids=Centroid,
+                                                    reducer_count=R)
+                # stub = Kmeans_pb2_grpc.KmeansStub(channel)
+                res = stub.MasterToMapper(request)
+                if(res.success == 1):
+                    dumpWrite.write(f"gRPC Success Response Received by Master from Mapper {ind + 1} \n")
+                    return True
+               
+            # else:
+            #     dumpWrite.write(f"gRPC Failure Response Received by Master from Mapper {ind + 1} !! Sending Request Again\n")
+            #     mapperRequest(ind,success_count)
+            
             # if(res.success == 1):
             #     success_count+=1
 
             # print("RESPONSE RECEIVED")
             # print(f"{res}")
-    except Exception:
-        return
+    except Exception as e:
+        print(e)
+        return False
 
 
 def initiateMappers(iterationNum):
+    
     global M_count
     dumpWrite.write(f"------------{iterationNum}------------- \n")
     with open("Centroid.txt", "r") as g:
@@ -111,14 +125,26 @@ def initiateMappers(iterationNum):
     work_splitter()
     with concurrent.futures.ThreadPoolExecutor() as executor:
         # Submit tasks for each mapper address
-        futures = [executor.submit(mapperRequest, ind, success_count) for ind in range(0, M)]
+        futures = [executor.submit(mapperRequest, ind, success_count) for ind in range(0,M)]
         results = [future.result() for future in concurrent.futures.as_completed(futures)]
+        concurrent.futures.wait(futures)
 
     count = 0
+    failedMappers = []
+    deadMappers = []
+    activeMappers = []
+    print(results)
     for res in results:
         if (res):
             count += 1
+            
+      
+    
+    
     print(count)
+    if(count == M):
+        initiateReducers()
+        
     M_count = count
 
     # for ind in range(0,len(Mappers)):
@@ -133,8 +159,16 @@ def reducerRequest(i):
             req = Kmeans_pb2.MasterToReducerReq(start_process=1, id=i + 1, M=M,R=R)
             res = stub.MasterToReducer(req)
             print(res)
-            if (res.success == 1):
+            if(res.success == 1):
+                 dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
+            while(res.success == 0):
+                dumpWrite.write(f"gRPC Failure Response Received by Master from Reducer {i + 1} !!, Sending Request again.\n")
+                reducerRequest(i)
+                req = Kmeans_pb2.MasterToReducerReq(start_process=1, id=i + 1, M=M,R=R)
+                res = stub.MasterToReducer(req)
                 dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
+                return
+                
                 # reader = open(f"Data/Reducers/R{i + 1}.txt", "r")
                 # writer = open("Centroid.txt", "w")
                 #
@@ -144,8 +178,10 @@ def reducerRequest(i):
                 #     curr = centroid.split(" ")
                 #     writer.write(curr[1] + " " + curr[2]+"\n")
                 # writer.close()
-            else:
-                dumpWrite.write(f"gRPC Failure Response Received by Master from Reducer {i + 1} \n")
+            # else:
+            #     dumpWrite.write(f"gRPC Failure Response Received by Master from Reducer {i + 1} !!, Sending Request again.\n")
+            #     reducerRequest(i)
+            # dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
     except Exception as e:
         print(e)
         return
@@ -156,12 +192,13 @@ def initiateReducers():
     with concurrent.futures.ThreadPoolExecutor() as executor:
         # Submit tasks for each mapper address
         futures = [executor.submit(reducerRequest, i) for i in range(0, R)]
-        results = [future.result() for future in concurrent.futures.as_completed(futures)]
+        
+        concurrent.futures.wait(futures)
 
-    count = 0
-    for res in results:
-        if (res):
-            count += 1
+    # count = 0
+    # for res in results:
+    #     if (res):
+    #         count += 1
 
     dumpWrite.write("New List Of Coordinates - \n")
     data=[]
@@ -212,8 +249,8 @@ def startKMeans():
     i = 1
     while (i <= n):
         initiateMappers(i)
-        if M_count == M:
-            initiateReducers()
+        # if M_count == M:
+        #     initiateReducers()
         i += 1
 
 
