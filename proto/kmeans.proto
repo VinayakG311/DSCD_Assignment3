@@ -4,6 +4,14 @@ service Kmeans{
   rpc MasterToMapper(MasterToMapperReq) returns (MasterToMapperRes){};
   rpc MasterToReducer(MasterToReducerReq) returns (MasterToReducerRes){};
   rpc ReducerToMapper(ReducerToMapperReq) returns (ReducerToMapperRes){};
+  rpc CheckMapperAlive(AliveReq) returns (AliveRes){};
+
+
+}
+message AliveReq{
+
+}
+message AliveRes{
 
 }
 message Centroids{
