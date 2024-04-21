@@ -192,11 +192,13 @@ def reducerRequest(i):
 
             while(res.success == 0):
                 dumpWrite.write(f"gRPC Failure Response Received by Master from Reducer {i + 1} !!, Sending Request again.\n")
-                reducerRequest(i)
+                # reducerRequest(i)
+                dumpWrite.write(f"gRPC Request sent by Master to Reducer {i + 1} \n")
                 req = Kmeans_pb2.MasterToReducerReq(start_process=1, id=i + 1, M=M,R=R)
                 res = stub.MasterToReducer(req)
-                dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
-                return [True,"","Alive"]
+                if(res.success == 1):
+                    dumpWrite.write(f"gRPC Success Response Received by Master from Reducer {i + 1} \n")
+                    return [True,"","Alive"]
                 
                 # reader = open(f"Data/Reducers/R{i + 1}.txt", "r")
                 # writer = open("Centroid.txt", "w")
